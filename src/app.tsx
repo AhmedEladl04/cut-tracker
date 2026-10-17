@@ -41,7 +41,11 @@ function Screen({ path }: { path: string }) {
   }
 }
 
-/** Shows "Update available" when a new version was deployed (never reloads mid-workout by itself). */
+/**
+ * Registers the service worker (offline cache) on the very first launch — even on the
+ * Setup screen — and shows "Update available" when a new version was deployed.
+ * It never reloads by itself, so an update can't interrupt a workout.
+ */
 function UpdatePrompt() {
   const { needRefresh: [needRefresh], updateServiceWorker } = useRegisterSW();
   if (!needRefresh) return null;
@@ -59,7 +63,6 @@ function Shell() {
   return (
     <>
       <Header />
-      <UpdatePrompt />
       <main class="screen"><Screen path={route.path} /></main>
       <RestTimerBar />
       <TabBar path={route.path} />
@@ -74,8 +77,11 @@ export function App() {
     requestPersistence();
   }, []);
   return (
-    <AppStateProvider setup={<><Setup /><ToastHost /></>} loading={<main class="screen muted">Loading…</main>}>
-      <Shell />
-    </AppStateProvider>
+    <>
+      <UpdatePrompt />
+      <AppStateProvider setup={<><Setup /><ToastHost /></>} loading={<main class="screen muted">Loading…</main>}>
+        <Shell />
+      </AppStateProvider>
+    </>
   );
 }
