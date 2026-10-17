@@ -9,3 +9,4 @@ export * from './search';
 export * from './stats';
 export * from './workout';
 export * from './format';
+export * from './daily';
