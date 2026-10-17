@@ -65,7 +65,7 @@ export function FoodDayView({ date, embedded }: { date: string; embedded?: boole
         </div>
       )}
 
-      <div class="card"><MacroBars total={total} target={target} /></div>
+      <div class="card"><MacroBars total={total} target={target} inProgress={isToday} /></div>
 
       {!embedded && (
         <div class="row">

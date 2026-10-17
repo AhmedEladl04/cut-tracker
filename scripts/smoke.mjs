@@ -102,6 +102,57 @@ for (const [name, path] of [['calendar', '#/calendar'], ['progress', '#/progress
   });
 }
 
+await step('log weight, steps and cardio', async () => {
+  await page.goto(BASE + '#/body');
+  await page.locator('input[inputmode="decimal"]').first().fill('89.4');
+  await page.getByRole('button', { name: '✓' }).first().click();
+  await page.goto(BASE + '#/cardio');
+  await page.locator('input[inputmode="numeric"]').first().fill('9100');
+  await page.getByRole('button', { name: 'Save' }).click();
+  await page.getByRole('button', { name: 'Intervals' }).click();
+  await page.getByText(/Intervals the day before a Lower day/).waitFor();
+  await page.getByRole('button', { name: 'Incline walk' }).click();
+  await page.getByRole('button', { name: 'Add session' }).click();
+  await page.getByText(/1<\/b> \/ 2 sessions|LISS/).first().waitFor();
+  await shot('cardio-logged');
+});
+
+await step('calendar shows ticks and day detail opens', async () => {
+  await page.goto(BASE + '#/calendar');
+  await page.locator('.cal .day.today .dot.on').first().waitFor();
+  await page.locator('.cal .day.today').click();
+  await page.getByRole('heading', { name: 'Workout' }).waitFor();
+  await shot('day-detail');
+});
+
+await step('progress charts render', async () => {
+  await page.goto(BASE + '#/progress');
+  await page.locator('canvas').first().waitFor();
+  await page.waitForTimeout(500);
+  await shot('progress-charts');
+});
+
+await step('export backup downloads JSON', async () => {
+  await page.goto(BASE + '#/backup');
+  const [dl] = await Promise.all([page.waitForEvent('download'), page.getByRole('button', { name: /Export backup/ }).click()]);
+  const path = await dl.path();
+  const { readFileSync } = await import('node:fs');
+  const data = JSON.parse(readFileSync(path, 'utf8'));
+  if (data.app !== 'cut-tracker' || !data.tables.sessions.length) throw new Error('bad backup content');
+  await page.getByText('Last backup').locator('..').getByText('today').waitFor();
+});
+
+if (process.env.SYNC_URL) {
+  await step('sync with laptop server', async () => {
+    await page.goto(BASE + '#/backup');
+    await page.locator('input[type="url"]').fill(process.env.SYNC_URL);
+    await page.locator('input[autocomplete="off"]').last().fill(process.env.SYNC_TOKEN ?? '');
+    await page.getByRole('button', { name: /Save & sync now/ }).click();
+    await page.getByText(/Synced: sent \d+/).waitFor();
+    await shot('synced');
+  });
+}
+
 await step('no horizontal scroll at 390px', async () => {
   for (const path of ['#/today', '#/food', '#/calendar', '#/progress']) {
     await page.goto(BASE + path);

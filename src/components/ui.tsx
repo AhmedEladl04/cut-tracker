@@ -96,8 +96,12 @@ export function Bar({ value, max, status }: { value: number; max: number; status
   return <div class="bar"><span class={status} style={{ width: `${pct}%` }} /></div>;
 }
 
-/** Daily totals vs targets: kcal, protein, carbs, fat, colour-coded. */
-export function MacroBars({ total, target }: { total: Macros; target: Macros }) {
+/**
+ * Daily totals vs targets: kcal, protein, carbs, fat, colour-coded.
+ * `inProgress` (today): being under target is normal mid-day, so it shows as neutral blue
+ * progress; colours only kick in when you reach/overshoot the target, or for past days.
+ */
+export function MacroBars({ total, target, inProgress }: { total: Macros; target: Macros; inProgress?: boolean }) {
   const rows: [string, number, number, Status, string][] = [
     ['Calories', total.kcal, target.kcal, kcalStatus(total.kcal, target.kcal), 'kcal'],
     ['Protein', total.protein, target.protein, proteinStatus(total.protein, target.protein), 'g'],
@@ -115,7 +119,7 @@ export function MacroBars({ total, target }: { total: Macros; target: Macros }) 
               {' · '}{v <= t ? `${fmt(t - v, 0)} left` : `${fmt(v - t, 0)} over`}
             </span>
           </div>
-          <Bar value={v} max={t} status={st} />
+          <Bar value={v} max={t} status={inProgress && v < t && st !== 'green' ? 'blue' : st} />
         </div>
       ))}
     </div>
