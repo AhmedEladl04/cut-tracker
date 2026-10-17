@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dev-dist/
+*.log
+# Personal data must never be committed
+server/data/
+server/certs/
+server/.venv/
+*.backup.json
+cut-backup-*.json
+__pycache__/

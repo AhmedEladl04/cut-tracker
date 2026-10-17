@@ -1,0 +1,3405 @@
+{
+ "version": 1,
+ "note": "Typical home/restaurant ESTIMATES per 100 g. Real values vary by recipe and portion. All items are editable in the app.",
+ "foods": [
+  {
+   "id": "baladi-bread-aish-baladi",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Baladi bread (aish baladi)",
+   "nameAr": "عيش بلدي",
+   "aliases": [
+    "aish",
+    "eish",
+    "baladi",
+    "balady",
+    "عيش"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 9.0,
+    "carbs": 50.0,
+    "fat": 1.5
+   },
+   "servings": [
+    {
+     "label": "1 loaf",
+     "grams": 100.0
+    },
+    {
+     "label": "1/2 loaf",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "shami-bread-white-pita",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Shami bread (white pita)",
+   "nameAr": "عيش شامي",
+   "aliases": [
+    "pita",
+    "shamy",
+    "syrian bread"
+   ],
+   "per100": {
+    "kcal": 275.0,
+    "protein": 9.0,
+    "carbs": 55.0,
+    "fat": 1.2
+   },
+   "servings": [
+    {
+     "label": "1 loaf",
+     "grams": 80.0
+    }
+   ]
+  },
+  {
+   "id": "fino-roll",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Fino roll",
+   "nameAr": "عيش فينو",
+   "aliases": [
+    "fino",
+    "feeno"
+   ],
+   "per100": {
+    "kcal": 280.0,
+    "protein": 9.0,
+    "carbs": 53.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "1 roll",
+     "grams": 60.0
+    }
+   ]
+  },
+  {
+   "id": "toast-bread",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Toast bread",
+   "nameAr": "عيش توست",
+   "aliases": [
+    "toast",
+    "sandwich bread"
+   ],
+   "per100": {
+    "kcal": 265.0,
+    "protein": 9.0,
+    "carbs": 49.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 28.0
+    }
+   ]
+  },
+  {
+   "id": "semeet-sesame-ring",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Semeet (sesame ring)",
+   "nameAr": "سميط",
+   "aliases": [
+    "simit",
+    "semit"
+   ],
+   "per100": {
+    "kcal": 330.0,
+    "protein": 10.0,
+    "carbs": 60.0,
+    "fat": 6.0
+   },
+   "servings": [
+    {
+     "label": "1 ring",
+     "grams": 90.0
+    }
+   ]
+  },
+  {
+   "id": "feteer-meshaltet",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Feteer meshaltet",
+   "nameAr": "فطير مشلتت",
+   "aliases": [
+    "fiteer",
+    "feteer",
+    "fateer",
+    "mishaltet"
+   ],
+   "per100": {
+    "kcal": 420.0,
+    "protein": 7.0,
+    "carbs": 42.0,
+    "fat": 25.0
+   },
+   "servings": [
+    {
+     "label": "1 slice (1/8)",
+     "grams": 60.0
+    },
+    {
+     "label": "1 whole",
+     "grams": 500.0
+    }
+   ]
+  },
+  {
+   "id": "savory-feteer-cheese-sausage",
+   "category": "bread",
+   "source": "estimate",
+   "nameEn": "Savory feteer (cheese/sausage)",
+   "nameAr": "فطير حادق",
+   "aliases": [
+    "feteer hadek",
+    "fiteer meat"
+   ],
+   "per100": {
+    "kcal": 330.0,
+    "protein": 11.0,
+    "carbs": 33.0,
+    "fat": 17.0
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 80.0
+    }
+   ]
+  },
+  {
+   "id": "foul-medames-plain",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Foul medames (plain)",
+   "nameAr": "فول مدمس",
+   "aliases": [
+    "foul",
+    "ful",
+    "fuul",
+    "medames",
+    "mudammas"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 7.6,
+    "carbs": 18.0,
+    "fat": 0.6
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 200.0
+    },
+    {
+     "label": "1 cup",
+     "grams": 170.0
+    }
+   ]
+  },
+  {
+   "id": "foul-with-oil",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Foul with oil",
+   "nameAr": "فول بالزيت",
+   "aliases": [
+    "foul bel zeit",
+    "ful oil"
+   ],
+   "per100": {
+    "kcal": 150.0,
+    "protein": 7.0,
+    "carbs": 17.0,
+    "fat": 6.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "foul-with-tahina",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Foul with tahina",
+   "nameAr": "فول بالطحينة",
+   "aliases": [
+    "foul tahina"
+   ],
+   "per100": {
+    "kcal": 170.0,
+    "protein": 8.0,
+    "carbs": 15.0,
+    "fat": 9.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "ta-meya-egyptian-falafel",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Ta'meya (Egyptian falafel)",
+   "nameAr": "طعمية",
+   "aliases": [
+    "taameya",
+    "tamiya",
+    "taamiya",
+    "falafel",
+    "فلافل"
+   ],
+   "per100": {
+    "kcal": 320.0,
+    "protein": 13.0,
+    "carbs": 30.0,
+    "fat": 18.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "ta-meya-sandwich",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Ta'meya sandwich",
+   "nameAr": "ساندوتش طعمية",
+   "aliases": [
+    "taameya sandwich",
+    "falafel sandwich"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 8.0,
+    "carbs": 32.0,
+    "fat": 10.0
+   },
+   "servings": [
+    {
+     "label": "1 sandwich",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "foul-sandwich",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Foul sandwich",
+   "nameAr": "ساندوتش فول",
+   "aliases": [
+    "ful sandwich"
+   ],
+   "per100": {
+    "kcal": 190.0,
+    "protein": 7.0,
+    "carbs": 30.0,
+    "fat": 4.0
+   },
+   "servings": [
+    {
+     "label": "1 sandwich",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "bessara",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Bessara",
+   "nameAr": "بصارة",
+   "aliases": [
+    "besara",
+    "bisara"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 7.0,
+    "carbs": 15.0,
+    "fat": 2.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "boiled-egg",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Boiled egg",
+   "nameAr": "بيض مسلوق",
+   "aliases": [
+    "egg",
+    "beid",
+    "bayd"
+   ],
+   "per100": {
+    "kcal": 155.0,
+    "protein": 13.0,
+    "carbs": 1.1,
+    "fat": 11.0
+   },
+   "servings": [
+    {
+     "label": "1 egg",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fried-egg",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Fried egg",
+   "nameAr": "بيض مقلي",
+   "aliases": [
+    "egg fried"
+   ],
+   "per100": {
+    "kcal": 196.0,
+    "protein": 13.6,
+    "carbs": 0.8,
+    "fat": 15.0
+   },
+   "servings": [
+    {
+     "label": "1 egg",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "omelette",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Omelette",
+   "nameAr": "أومليت",
+   "aliases": [
+    "omelet",
+    "eggs"
+   ],
+   "per100": {
+    "kcal": 154.0,
+    "protein": 11.0,
+    "carbs": 1.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "2 eggs",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "eggs-with-basterma",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Eggs with basterma",
+   "nameAr": "بيض بالبسطرمة",
+   "aliases": [
+    "basterma eggs",
+    "bastirma"
+   ],
+   "per100": {
+    "kcal": 230.0,
+    "protein": 17.0,
+    "carbs": 1.5,
+    "fat": 17.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "gebna-areesh-cottage-cheese",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Gebna areesh (cottage cheese)",
+   "nameAr": "جبنة قريش",
+   "aliases": [
+    "areesh",
+    "arish",
+    "qareesh",
+    "cottage cheese"
+   ],
+   "per100": {
+    "kcal": 95.0,
+    "protein": 14.0,
+    "carbs": 3.0,
+    "fat": 3.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 100.0
+    },
+    {
+     "label": "2 tbsp",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "gebna-roumy",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Gebna roumy",
+   "nameAr": "جبنة رومي",
+   "aliases": [
+    "roumy",
+    "rumi",
+    "romy cheese"
+   ],
+   "per100": {
+    "kcal": 390.0,
+    "protein": 28.0,
+    "carbs": 2.0,
+    "fat": 30.0
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 20.0
+    }
+   ]
+  },
+  {
+   "id": "gebna-istanbouli",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Gebna istanbouli",
+   "nameAr": "جبنة اسطنبولي",
+   "aliases": [
+    "istanbouli",
+    "istanboly",
+    "white cheese"
+   ],
+   "per100": {
+    "kcal": 260.0,
+    "protein": 13.0,
+    "carbs": 3.0,
+    "fat": 22.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "domiati-white-cheese",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Domiati white cheese",
+   "nameAr": "جبنة دمياطي",
+   "aliases": [
+    "domiati",
+    "domyati",
+    "feta",
+    "gebna beida"
+   ],
+   "per100": {
+    "kcal": 270.0,
+    "protein": 15.0,
+    "carbs": 3.0,
+    "fat": 22.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "processed-cheese-triangle",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Processed cheese triangle",
+   "nameAr": "جبنة مثلثات",
+   "aliases": [
+    "cheese triangle",
+    "mosalasat"
+   ],
+   "per100": {
+    "kcal": 240.0,
+    "protein": 10.0,
+    "carbs": 6.0,
+    "fat": 20.0
+   },
+   "servings": [
+    {
+     "label": "1 triangle",
+     "grams": 17.5
+    }
+   ]
+  },
+  {
+   "id": "labneh",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Labneh",
+   "nameAr": "لبنة",
+   "aliases": [
+    "labna"
+   ],
+   "per100": {
+    "kcal": 180.0,
+    "protein": 7.0,
+    "carbs": 4.0,
+    "fat": 15.0
+   },
+   "servings": [
+    {
+     "label": "2 tbsp",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "halawa-tahiniya",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Halawa tahiniya",
+   "nameAr": "حلاوة طحينية",
+   "aliases": [
+    "halawa",
+    "halva",
+    "halwa"
+   ],
+   "per100": {
+    "kcal": 520.0,
+    "protein": 12.0,
+    "carbs": 50.0,
+    "fat": 31.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 20.0
+    },
+    {
+     "label": "1 piece",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "zabadi-full-fat-yogurt",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Zabadi (full-fat yogurt)",
+   "nameAr": "زبادي",
+   "aliases": [
+    "zabady",
+    "yogurt",
+    "yoghurt",
+    "laban zabadi"
+   ],
+   "per100": {
+    "kcal": 61.0,
+    "protein": 3.5,
+    "carbs": 4.7,
+    "fat": 3.3
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 105.0
+    }
+   ]
+  },
+  {
+   "id": "zabadi-light-low-fat-yogurt",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Zabadi light (low-fat yogurt)",
+   "nameAr": "زبادي لايت",
+   "aliases": [
+    "light yogurt",
+    "low fat yogurt"
+   ],
+   "per100": {
+    "kcal": 45.0,
+    "protein": 4.0,
+    "carbs": 5.5,
+    "fat": 0.5
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 105.0
+    }
+   ]
+  },
+  {
+   "id": "greek-yogurt",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Greek yogurt",
+   "nameAr": "زبادي يوناني",
+   "aliases": [
+    "greek zabadi"
+   ],
+   "per100": {
+    "kcal": 97.0,
+    "protein": 9.0,
+    "carbs": 4.0,
+    "fat": 5.0
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "full-fat-milk",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Full-fat milk",
+   "nameAr": "لبن كامل الدسم",
+   "aliases": [
+    "milk",
+    "laban",
+    "halib"
+   ],
+   "per100": {
+    "kcal": 62.0,
+    "protein": 3.2,
+    "carbs": 4.7,
+    "fat": 3.4
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 240.0
+    }
+   ]
+  },
+  {
+   "id": "skimmed-milk",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Skimmed milk",
+   "nameAr": "لبن خالي الدسم",
+   "aliases": [
+    "skim milk",
+    "laban light"
+   ],
+   "per100": {
+    "kcal": 35.0,
+    "protein": 3.4,
+    "carbs": 5.0,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 240.0
+    }
+   ]
+  },
+  {
+   "id": "oats",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Oats",
+   "nameAr": "شوفان",
+   "aliases": [
+    "oatmeal",
+    "shofan"
+   ],
+   "per100": {
+    "kcal": 389.0,
+    "protein": 16.9,
+    "carbs": 66.0,
+    "fat": 6.9
+   },
+   "servings": [
+    {
+     "label": "1/2 cup",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "honey",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Honey",
+   "nameAr": "عسل نحل",
+   "aliases": [
+    "asal",
+    "honey"
+   ],
+   "per100": {
+    "kcal": 304.0,
+    "protein": 0.3,
+    "carbs": 82.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 21.0
+    }
+   ]
+  },
+  {
+   "id": "black-honey-molasses",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Black honey (molasses)",
+   "nameAr": "عسل أسود",
+   "aliases": [
+    "asal eswed",
+    "molasses"
+   ],
+   "per100": {
+    "kcal": 290.0,
+    "protein": 0.0,
+    "carbs": 75.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 20.0
+    }
+   ]
+  },
+  {
+   "id": "jam",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Jam",
+   "nameAr": "مربى",
+   "aliases": [
+    "marmalade",
+    "mrabba"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 0.4,
+    "carbs": 63.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 20.0
+    }
+   ]
+  },
+  {
+   "id": "basterma",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Basterma",
+   "nameAr": "بسطرمة",
+   "aliases": [
+    "bastirma",
+    "pastirma"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 30.0,
+    "carbs": 1.0,
+    "fat": 14.0
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 8.0
+    }
+   ]
+  },
+  {
+   "id": "luncheon-beef",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Luncheon (beef)",
+   "nameAr": "لانشون",
+   "aliases": [
+    "lanshon",
+    "luncheon meat"
+   ],
+   "per100": {
+    "kcal": 280.0,
+    "protein": 12.0,
+    "carbs": 4.0,
+    "fat": 24.0
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 20.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-luncheon-smoked-turkey",
+   "category": "breakfast",
+   "source": "estimate",
+   "nameEn": "Chicken luncheon / smoked turkey",
+   "nameAr": "لانشون فراخ",
+   "aliases": [
+    "turkey",
+    "chicken luncheon"
+   ],
+   "per100": {
+    "kcal": 180.0,
+    "protein": 13.0,
+    "carbs": 5.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 20.0
+    }
+   ]
+  },
+  {
+   "id": "koshary",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Koshary",
+   "nameAr": "كشري",
+   "aliases": [
+    "koshari",
+    "kushari",
+    "koshary",
+    "kushary"
+   ],
+   "per100": {
+    "kcal": 170.0,
+    "protein": 5.0,
+    "carbs": 30.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "small plate",
+     "grams": 300.0
+    },
+    {
+     "label": "medium plate",
+     "grams": 450.0
+    },
+    {
+     "label": "large plate",
+     "grams": 600.0
+    }
+   ]
+  },
+  {
+   "id": "mahshi-vine-leaves",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Mahshi vine leaves",
+   "nameAr": "محشي ورق عنب",
+   "aliases": [
+    "warak enab",
+    "wara2 3enab",
+    "dolma"
+   ],
+   "per100": {
+    "kcal": 160.0,
+    "protein": 2.5,
+    "carbs": 22.0,
+    "fat": 7.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 10.0
+    },
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "mahshi-cabbage",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Mahshi cabbage",
+   "nameAr": "محشي كرنب",
+   "aliases": [
+    "mahshi koronb",
+    "cabbage rolls"
+   ],
+   "per100": {
+    "kcal": 140.0,
+    "protein": 2.5,
+    "carbs": 20.0,
+    "fat": 6.0
+   },
+   "servings": [
+    {
+     "label": "1 roll",
+     "grams": 20.0
+    },
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "mahshi-mix-zucchini-peppers-eggplant",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Mahshi mix (zucchini/peppers/eggplant)",
+   "nameAr": "محشي مشكل",
+   "aliases": [
+    "mahshi kosa",
+    "stuffed zucchini"
+   ],
+   "per100": {
+    "kcal": 120.0,
+    "protein": 2.5,
+    "carbs": 17.0,
+    "fat": 5.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 60.0
+    },
+    {
+     "label": "1 plate",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "molokhia",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Molokhia",
+   "nameAr": "ملوخية",
+   "aliases": [
+    "mulukhiyah",
+    "molokheya",
+    "molokhiya",
+    "mloukhia"
+   ],
+   "per100": {
+    "kcal": 55.0,
+    "protein": 2.5,
+    "carbs": 4.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "bamya-with-meat",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Bamya with meat",
+   "nameAr": "بامية باللحمة",
+   "aliases": [
+    "okra",
+    "bamia"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 6.0,
+    "carbs": 7.0,
+    "fat": 6.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "vegetable-stew-torly",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Vegetable stew (torly)",
+   "nameAr": "تورلي",
+   "aliases": [
+    "khodar",
+    "turly",
+    "vegetable stew"
+   ],
+   "per100": {
+    "kcal": 90.0,
+    "protein": 4.0,
+    "carbs": 8.0,
+    "fat": 4.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "green-beans-with-meat",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Green beans with meat",
+   "nameAr": "فاصوليا خضراء",
+   "aliases": [
+    "fasolia khadra",
+    "green beans"
+   ],
+   "per100": {
+    "kcal": 80.0,
+    "protein": 4.0,
+    "carbs": 7.0,
+    "fat": 4.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "white-bean-stew",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "White bean stew",
+   "nameAr": "فاصوليا بيضاء",
+   "aliases": [
+    "fasolia beda",
+    "white beans"
+   ],
+   "per100": {
+    "kcal": 120.0,
+    "protein": 6.0,
+    "carbs": 15.0,
+    "fat": 4.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "peas-carrots-with-meat",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Peas & carrots with meat",
+   "nameAr": "بسلة بالجزر",
+   "aliases": [
+    "bisilla",
+    "besella",
+    "peas"
+   ],
+   "per100": {
+    "kcal": 95.0,
+    "protein": 5.0,
+    "carbs": 10.0,
+    "fat": 4.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "moussaka-egyptian",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Moussaka (Egyptian)",
+   "nameAr": "مسقعة",
+   "aliases": [
+    "mesa2a3a",
+    "musakaa",
+    "eggplant"
+   ],
+   "per100": {
+    "kcal": 120.0,
+    "protein": 2.0,
+    "carbs": 8.0,
+    "fat": 9.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "potato-tray-with-meat",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Potato tray with meat",
+   "nameAr": "صينية بطاطس",
+   "aliases": [
+    "seneyet batates",
+    "potato tray"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 4.0,
+    "carbs": 12.0,
+    "fat": 5.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "fattah-with-meat",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Fattah with meat",
+   "nameAr": "فتة باللحمة",
+   "aliases": [
+    "fatta",
+    "fatteh"
+   ],
+   "per100": {
+    "kcal": 210.0,
+    "protein": 9.0,
+    "carbs": 22.0,
+    "fat": 9.5
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 400.0
+    }
+   ]
+  },
+  {
+   "id": "hawawshi",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Hawawshi",
+   "nameAr": "حواوشي",
+   "aliases": [
+    "hawawshy",
+    "hawawsheh"
+   ],
+   "per100": {
+    "kcal": 285.0,
+    "protein": 12.0,
+    "carbs": 22.0,
+    "fat": 17.0
+   },
+   "servings": [
+    {
+     "label": "1 loaf",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-shawarma-sandwich",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Chicken shawarma sandwich",
+   "nameAr": "ساندوتش شاورما فراخ",
+   "aliases": [
+    "shawerma",
+    "shawarma chicken"
+   ],
+   "per100": {
+    "kcal": 230.0,
+    "protein": 13.0,
+    "carbs": 22.0,
+    "fat": 10.0
+   },
+   "servings": [
+    {
+     "label": "1 sandwich",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "beef-shawarma-sandwich",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Beef shawarma sandwich",
+   "nameAr": "ساندوتش شاورما لحمة",
+   "aliases": [
+    "shawerma meat",
+    "shawarma beef"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 12.0,
+    "carbs": 22.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1 sandwich",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-shawarma-meat-only",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Chicken shawarma (meat only)",
+   "nameAr": "شاورما فراخ",
+   "aliases": [
+    "shawarma meat only"
+   ],
+   "per100": {
+    "kcal": 210.0,
+    "protein": 22.0,
+    "carbs": 3.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-kofta",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled kofta",
+   "nameAr": "كفتة مشوية",
+   "aliases": [
+    "kofta",
+    "kufta",
+    "kafta"
+   ],
+   "per100": {
+    "kcal": 260.0,
+    "protein": 18.0,
+    "carbs": 4.0,
+    "fat": 19.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 40.0
+    },
+    {
+     "label": "1 portion",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-kebab",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled kebab",
+   "nameAr": "كباب",
+   "aliases": [
+    "kabab",
+    "kebab"
+   ],
+   "per100": {
+    "kcal": 230.0,
+    "protein": 24.0,
+    "carbs": 0.0,
+    "fat": 15.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "shish-tawook",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Shish tawook",
+   "nameAr": "شيش طاووق",
+   "aliases": [
+    "shish tawouk",
+    "chicken skewer"
+   ],
+   "per100": {
+    "kcal": 160.0,
+    "protein": 25.0,
+    "carbs": 3.0,
+    "fat": 5.5
+   },
+   "servings": [
+    {
+     "label": "1 skewer",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-chicken-with-skin",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled chicken (with skin)",
+   "nameAr": "فراخ مشوية",
+   "aliases": [
+    "grilled chicken",
+    "ferakh mashwia",
+    "frakh"
+   ],
+   "per100": {
+    "kcal": 215.0,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1/4 chicken (edible)",
+     "grams": 160.0
+    },
+    {
+     "label": "1/2 chicken (edible)",
+     "grams": 320.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-chicken-breast-skinless",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled chicken breast (skinless)",
+   "nameAr": "صدور فراخ مشوية",
+   "aliases": [
+    "chicken breast",
+    "sodor"
+   ],
+   "per100": {
+    "kcal": 165.0,
+    "protein": 31.0,
+    "carbs": 0.0,
+    "fat": 3.6
+   },
+   "servings": [
+    {
+     "label": "1 breast",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-pane",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Chicken pane",
+   "nameAr": "فراخ بانيه",
+   "aliases": [
+    "pane",
+    "panne",
+    "breaded chicken"
+   ],
+   "per100": {
+    "kcal": 260.0,
+    "protein": 20.0,
+    "carbs": 15.0,
+    "fat": 13.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "fried-chicken-broasted",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Fried chicken (broasted)",
+   "nameAr": "فراخ مقلية",
+   "aliases": [
+    "broasted",
+    "fried chicken"
+   ],
+   "per100": {
+    "kcal": 280.0,
+    "protein": 19.0,
+    "carbs": 10.0,
+    "fat": 18.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "stuffed-pigeon",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Stuffed pigeon",
+   "nameAr": "حمام محشي",
+   "aliases": [
+    "hamam mahshi",
+    "pigeon"
+   ],
+   "per100": {
+    "kcal": 230.0,
+    "protein": 15.0,
+    "carbs": 15.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1 pigeon",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "alexandrian-beef-liver",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Alexandrian beef liver",
+   "nameAr": "كبدة إسكندراني",
+   "aliases": [
+    "kebda",
+    "kibda",
+    "liver"
+   ],
+   "per100": {
+    "kcal": 175.0,
+    "protein": 22.0,
+    "carbs": 6.0,
+    "fat": 7.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "liver-sandwich",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Liver sandwich",
+   "nameAr": "ساندوتش كبدة",
+   "aliases": [
+    "kebda sandwich"
+   ],
+   "per100": {
+    "kcal": 220.0,
+    "protein": 12.0,
+    "carbs": 24.0,
+    "fat": 8.0
+   },
+   "servings": [
+    {
+     "label": "1 sandwich",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-liver",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Chicken liver",
+   "nameAr": "كبدة فراخ",
+   "aliases": [
+    "kebda frakh"
+   ],
+   "per100": {
+    "kcal": 170.0,
+    "protein": 24.0,
+    "carbs": 1.0,
+    "fat": 7.5
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "sausage-sogo",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Sausage (sogo')",
+   "nameAr": "سجق",
+   "aliases": [
+    "sogo2",
+    "sogok",
+    "sausage"
+   ],
+   "per100": {
+    "kcal": 300.0,
+    "protein": 13.0,
+    "carbs": 4.0,
+    "fat": 26.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "mombar",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Mombar",
+   "nameAr": "ممبار",
+   "aliases": [
+    "mumbar"
+   ],
+   "per100": {
+    "kcal": 260.0,
+    "protein": 8.0,
+    "carbs": 25.0,
+    "fat": 14.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "boiled-beef",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Boiled beef",
+   "nameAr": "لحمة مسلوقة",
+   "aliases": [
+    "lahma",
+    "beef"
+   ],
+   "per100": {
+    "kcal": 250.0,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 16.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "ground-beef-cooked",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Ground beef (cooked)",
+   "nameAr": "لحمة مفرومة",
+   "aliases": [
+    "minced meat",
+    "lahma mafroma"
+   ],
+   "per100": {
+    "kcal": 270.0,
+    "protein": 25.0,
+    "carbs": 0.0,
+    "fat": 18.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-tilapia-bolti",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled tilapia (bolti)",
+   "nameAr": "سمك بلطي مشوي",
+   "aliases": [
+    "bolti",
+    "tilapia",
+    "fish",
+    "samak"
+   ],
+   "per100": {
+    "kcal": 130.0,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 2.7
+   },
+   "servings": [
+    {
+     "label": "1 fish (edible)",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "fried-fish",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Fried fish",
+   "nameAr": "سمك مقلي",
+   "aliases": [
+    "samak ma2li",
+    "fried fish"
+   ],
+   "per100": {
+    "kcal": 210.0,
+    "protein": 20.0,
+    "carbs": 8.0,
+    "fat": 11.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-shrimp",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Grilled shrimp",
+   "nameAr": "جمبري مشوي",
+   "aliases": [
+    "gambari",
+    "shrimp",
+    "prawns"
+   ],
+   "per100": {
+    "kcal": 100.0,
+    "protein": 21.0,
+    "carbs": 0.5,
+    "fat": 1.5
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "tuna-in-oil-drained",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Tuna in oil (drained)",
+   "nameAr": "تونة بالزيت",
+   "aliases": [
+    "tuna",
+    "tona"
+   ],
+   "per100": {
+    "kcal": 200.0,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 10.0
+   },
+   "servings": [
+    {
+     "label": "1 can (drained)",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "tuna-in-water-drained",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Tuna in water (drained)",
+   "nameAr": "تونة بالمياه",
+   "aliases": [
+    "tuna water",
+    "tona light"
+   ],
+   "per100": {
+    "kcal": 116.0,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 1.0
+   },
+   "servings": [
+    {
+     "label": "1 can (drained)",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "sayadeya-rice",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Sayadeya rice",
+   "nameAr": "أرز صيادية",
+   "aliases": [
+    "sayadiya",
+    "sayadia"
+   ],
+   "per100": {
+    "kcal": 160.0,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 2.5
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 160.0
+    }
+   ]
+  },
+  {
+   "id": "kobeba-fried",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Kobeba (fried)",
+   "nameAr": "كبيبة",
+   "aliases": [
+    "kibbeh",
+    "kobeiba"
+   ],
+   "per100": {
+    "kcal": 270.0,
+    "protein": 12.0,
+    "carbs": 25.0,
+    "fat": 14.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 60.0
+    }
+   ]
+  },
+  {
+   "id": "cheese-sambousek",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Cheese sambousek",
+   "nameAr": "سمبوسك جبنة",
+   "aliases": [
+    "sambosa",
+    "samosa",
+    "sambousak"
+   ],
+   "per100": {
+    "kcal": 300.0,
+    "protein": 9.0,
+    "carbs": 28.0,
+    "fat": 17.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 35.0
+    }
+   ]
+  },
+  {
+   "id": "macarona-bechamel",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Macarona bechamel",
+   "nameAr": "مكرونة بشاميل",
+   "aliases": [
+    "bechamel",
+    "beshamel",
+    "macaroni bechamel"
+   ],
+   "per100": {
+    "kcal": 190.0,
+    "protein": 8.0,
+    "carbs": 18.0,
+    "fat": 9.5
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "pasta-boiled",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Pasta (boiled)",
+   "nameAr": "مكرونة مسلوقة",
+   "aliases": [
+    "macarona",
+    "makarona",
+    "pasta"
+   ],
+   "per100": {
+    "kcal": 158.0,
+    "protein": 5.8,
+    "carbs": 31.0,
+    "fat": 0.9
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 140.0
+    }
+   ]
+  },
+  {
+   "id": "pasta-with-red-sauce",
+   "category": "main",
+   "source": "estimate",
+   "nameEn": "Pasta with red sauce",
+   "nameAr": "مكرونة بالصلصة",
+   "aliases": [
+    "macarona salsa",
+    "pasta tomato"
+   ],
+   "per100": {
+    "kcal": 140.0,
+    "protein": 4.5,
+    "carbs": 24.0,
+    "fat": 3.0
+   },
+   "servings": [
+    {
+     "label": "1 plate",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "white-rice-cooked-egyptian-style",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "White rice (cooked, Egyptian style)",
+   "nameAr": "أرز أبيض",
+   "aliases": [
+    "ruz",
+    "roz",
+    "rice"
+   ],
+   "per100": {
+    "kcal": 150.0,
+    "protein": 2.7,
+    "carbs": 28.0,
+    "fat": 3.2
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 160.0
+    },
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "rice-with-vermicelli",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "Rice with vermicelli",
+   "nameAr": "أرز بالشعرية",
+   "aliases": [
+    "roz bel shaareya",
+    "vermicelli rice"
+   ],
+   "per100": {
+    "kcal": 165.0,
+    "protein": 3.0,
+    "carbs": 29.0,
+    "fat": 4.0
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 160.0
+    },
+    {
+     "label": "1 plate",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "french-fries",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "French fries",
+   "nameAr": "بطاطس محمرة",
+   "aliases": [
+    "batates mehamara",
+    "fries",
+    "chips"
+   ],
+   "per100": {
+    "kcal": 312.0,
+    "protein": 3.4,
+    "carbs": 41.0,
+    "fat": 15.0
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "boiled-potato",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "Boiled potato",
+   "nameAr": "بطاطس مسلوقة",
+   "aliases": [
+    "potato",
+    "batates"
+   ],
+   "per100": {
+    "kcal": 87.0,
+    "protein": 1.9,
+    "carbs": 20.0,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "sweet-potato-baked",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "Sweet potato (baked)",
+   "nameAr": "بطاطا",
+   "aliases": [
+    "batata",
+    "sweet potato"
+   ],
+   "per100": {
+    "kcal": 90.0,
+    "protein": 2.0,
+    "carbs": 21.0,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "grilled-corn",
+   "category": "rice",
+   "source": "estimate",
+   "nameEn": "Grilled corn",
+   "nameAr": "درة مشوي",
+   "aliases": [
+    "dora",
+    "corn"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 3.4,
+    "carbs": 23.0,
+    "fat": 1.5
+   },
+   "servings": [
+    {
+     "label": "1 cob",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "lentil-soup",
+   "category": "soup",
+   "source": "estimate",
+   "nameEn": "Lentil soup",
+   "nameAr": "شوربة عدس",
+   "aliases": [
+    "shorbet ads",
+    "lentil soup"
+   ],
+   "per100": {
+    "kcal": 85.0,
+    "protein": 5.0,
+    "carbs": 13.0,
+    "fat": 1.8
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "chicken-soup",
+   "category": "soup",
+   "source": "estimate",
+   "nameEn": "Chicken soup",
+   "nameAr": "شوربة فراخ",
+   "aliases": [
+    "shorba",
+    "chicken broth"
+   ],
+   "per100": {
+    "kcal": 35.0,
+    "protein": 3.0,
+    "carbs": 2.0,
+    "fat": 1.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "orzo-soup-lesan-asfour",
+   "category": "soup",
+   "source": "estimate",
+   "nameEn": "Orzo soup (lesan asfour)",
+   "nameAr": "شوربة لسان عصفور",
+   "aliases": [
+    "lesan asfour",
+    "orzo"
+   ],
+   "per100": {
+    "kcal": 50.0,
+    "protein": 2.0,
+    "carbs": 8.0,
+    "fat": 1.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "lentils-cooked",
+   "category": "legume",
+   "source": "estimate",
+   "nameEn": "Lentils (cooked)",
+   "nameAr": "عدس مطبوخ",
+   "aliases": [
+    "ads",
+    "lentils"
+   ],
+   "per100": {
+    "kcal": 116.0,
+    "protein": 9.0,
+    "carbs": 20.0,
+    "fat": 0.4
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "chickpeas-boiled",
+   "category": "legume",
+   "source": "estimate",
+   "nameEn": "Chickpeas (boiled)",
+   "nameAr": "حمص مسلوق",
+   "aliases": [
+    "hommos",
+    "chickpeas"
+   ],
+   "per100": {
+    "kcal": 164.0,
+    "protein": 8.9,
+    "carbs": 27.0,
+    "fat": 2.6
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 160.0
+    }
+   ]
+  },
+  {
+   "id": "hummus-el-sham-hot-chickpea-drink",
+   "category": "legume",
+   "source": "estimate",
+   "nameEn": "Hummus el-sham (hot chickpea drink)",
+   "nameAr": "حمص الشام",
+   "aliases": [
+    "hummus sham",
+    "homos el sham"
+   ],
+   "per100": {
+    "kcal": 80.0,
+    "protein": 4.0,
+    "carbs": 12.0,
+    "fat": 1.5
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "lupini-beans-termes",
+   "category": "legume",
+   "source": "estimate",
+   "nameEn": "Lupini beans (termes)",
+   "nameAr": "ترمس",
+   "aliases": [
+    "termis",
+    "lupin"
+   ],
+   "per100": {
+    "kcal": 119.0,
+    "protein": 16.0,
+    "carbs": 10.0,
+    "fat": 2.9
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "tahina-dip",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Tahina dip",
+   "nameAr": "طحينة",
+   "aliases": [
+    "tahini",
+    "tehina",
+    "tahina salad"
+   ],
+   "per100": {
+    "kcal": 270.0,
+    "protein": 8.0,
+    "carbs": 9.0,
+    "fat": 24.0
+   },
+   "servings": [
+    {
+     "label": "2 tbsp",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "tahina-paste-raw",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Tahina paste (raw)",
+   "nameAr": "طحينة خام",
+   "aliases": [
+    "raw tahini"
+   ],
+   "per100": {
+    "kcal": 595.0,
+    "protein": 17.0,
+    "carbs": 21.0,
+    "fat": 54.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 15.0
+    }
+   ]
+  },
+  {
+   "id": "baba-ghanoug",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Baba ghanoug",
+   "nameAr": "بابا غنوج",
+   "aliases": [
+    "baba ghanoush",
+    "baba ghanouj",
+    "babaghanoug"
+   ],
+   "per100": {
+    "kcal": 130.0,
+    "protein": 2.5,
+    "carbs": 8.0,
+    "fat": 10.0
+   },
+   "servings": [
+    {
+     "label": "2 tbsp",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "hummus-with-tahina",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Hummus with tahina",
+   "nameAr": "حمص بالطحينة",
+   "aliases": [
+    "hummus",
+    "hommos",
+    "houmous"
+   ],
+   "per100": {
+    "kcal": 170.0,
+    "protein": 8.0,
+    "carbs": 14.0,
+    "fat": 10.0
+   },
+   "servings": [
+    {
+     "label": "2 tbsp",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "salata-baladi",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Salata baladi",
+   "nameAr": "سلطة بلدي",
+   "aliases": [
+    "salad",
+    "salata khadra",
+    "green salad"
+   ],
+   "per100": {
+    "kcal": 45.0,
+    "protein": 1.0,
+    "carbs": 5.0,
+    "fat": 2.5
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "tabbouleh",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Tabbouleh",
+   "nameAr": "تبولة",
+   "aliases": [
+    "tabouli",
+    "tabbouli"
+   ],
+   "per100": {
+    "kcal": 120.0,
+    "protein": 2.0,
+    "carbs": 13.0,
+    "fat": 7.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "fattoush",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Fattoush",
+   "nameAr": "فتوش",
+   "aliases": [
+    "fatoush"
+   ],
+   "per100": {
+    "kcal": 110.0,
+    "protein": 2.0,
+    "carbs": 12.0,
+    "fat": 6.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "torshi-pickles",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Torshi (pickles)",
+   "nameAr": "طرشي",
+   "aliases": [
+    "mekhalel",
+    "pickles",
+    "mikhallil"
+   ],
+   "per100": {
+    "kcal": 25.0,
+    "protein": 1.0,
+    "carbs": 4.0,
+    "fat": 0.3
+   },
+   "servings": [
+    {
+     "label": "1 portion",
+     "grams": 50.0
+    }
+   ]
+  },
+  {
+   "id": "olives",
+   "category": "dip",
+   "source": "estimate",
+   "nameEn": "Olives",
+   "nameAr": "زيتون",
+   "aliases": [
+    "zeitoun",
+    "olive"
+   ],
+   "per100": {
+    "kcal": 145.0,
+    "protein": 1.0,
+    "carbs": 4.0,
+    "fat": 15.0
+   },
+   "servings": [
+    {
+     "label": "10 olives",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "tomato",
+   "category": "veg",
+   "source": "estimate",
+   "nameEn": "Tomato",
+   "nameAr": "طماطم",
+   "aliases": [
+    "tamatem",
+    "tomatoes",
+    "oota"
+   ],
+   "per100": {
+    "kcal": 18.0,
+    "protein": 0.9,
+    "carbs": 3.9,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "cucumber",
+   "category": "veg",
+   "source": "estimate",
+   "nameEn": "Cucumber",
+   "nameAr": "خيار",
+   "aliases": [
+    "khiyar",
+    "cucumber"
+   ],
+   "per100": {
+    "kcal": 15.0,
+    "protein": 0.7,
+    "carbs": 3.6,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "banana",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Banana",
+   "nameAr": "موز",
+   "aliases": [
+    "moz",
+    "banana"
+   ],
+   "per100": {
+    "kcal": 89.0,
+    "protein": 1.1,
+    "carbs": 23.0,
+    "fat": 0.3
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 120.0
+    }
+   ]
+  },
+  {
+   "id": "apple",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Apple",
+   "nameAr": "تفاح",
+   "aliases": [
+    "tofah",
+    "apple"
+   ],
+   "per100": {
+    "kcal": 52.0,
+    "protein": 0.3,
+    "carbs": 14.0,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 180.0
+    }
+   ]
+  },
+  {
+   "id": "orange",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Orange",
+   "nameAr": "برتقال",
+   "aliases": [
+    "bortoan",
+    "orange"
+   ],
+   "per100": {
+    "kcal": 47.0,
+    "protein": 0.9,
+    "carbs": 12.0,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 medium",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "dates",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Dates",
+   "nameAr": "بلح",
+   "aliases": [
+    "tamr",
+    "balah",
+    "dates",
+    "تمر"
+   ],
+   "per100": {
+    "kcal": 282.0,
+    "protein": 2.5,
+    "carbs": 75.0,
+    "fat": 0.4
+   },
+   "servings": [
+    {
+     "label": "1 date",
+     "grams": 10.0
+    }
+   ]
+  },
+  {
+   "id": "mango",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Mango",
+   "nameAr": "مانجو",
+   "aliases": [
+    "manga",
+    "mango"
+   ],
+   "per100": {
+    "kcal": 60.0,
+    "protein": 0.8,
+    "carbs": 15.0,
+    "fat": 0.4
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 165.0
+    }
+   ]
+  },
+  {
+   "id": "guava",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Guava",
+   "nameAr": "جوافة",
+   "aliases": [
+    "gawafa",
+    "guava"
+   ],
+   "per100": {
+    "kcal": 68.0,
+    "protein": 2.6,
+    "carbs": 14.0,
+    "fat": 1.0
+   },
+   "servings": [
+    {
+     "label": "1 fruit",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "watermelon",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Watermelon",
+   "nameAr": "بطيخ",
+   "aliases": [
+    "batikh",
+    "watermelon"
+   ],
+   "per100": {
+    "kcal": 30.0,
+    "protein": 0.6,
+    "carbs": 7.6,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 slice",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "grapes",
+   "category": "fruit",
+   "source": "estimate",
+   "nameEn": "Grapes",
+   "nameAr": "عنب",
+   "aliases": [
+    "enab",
+    "grapes"
+   ],
+   "per100": {
+    "kcal": 69.0,
+    "protein": 0.7,
+    "carbs": 18.0,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "basbousa",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Basbousa",
+   "nameAr": "بسبوسة",
+   "aliases": [
+    "basbosa",
+    "harissa",
+    "namoura"
+   ],
+   "per100": {
+    "kcal": 330.0,
+    "protein": 4.0,
+    "carbs": 55.0,
+    "fat": 11.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 70.0
+    }
+   ]
+  },
+  {
+   "id": "konafa",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Konafa",
+   "nameAr": "كنافة",
+   "aliases": [
+    "kunafa",
+    "knafeh",
+    "konafa"
+   ],
+   "per100": {
+    "kcal": 400.0,
+    "protein": 6.0,
+    "carbs": 48.0,
+    "fat": 20.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 100.0
+    }
+   ]
+  },
+  {
+   "id": "om-ali",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Om Ali",
+   "nameAr": "أم علي",
+   "aliases": [
+    "om ali",
+    "umm ali"
+   ],
+   "per100": {
+    "kcal": 230.0,
+    "protein": 5.0,
+    "carbs": 25.0,
+    "fat": 12.0
+   },
+   "servings": [
+    {
+     "label": "1 bowl",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "roz-bel-laban-rice-pudding",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Roz bel laban (rice pudding)",
+   "nameAr": "أرز باللبن",
+   "aliases": [
+    "rice pudding",
+    "roz bel laban"
+   ],
+   "per100": {
+    "kcal": 140.0,
+    "protein": 3.5,
+    "carbs": 23.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "mahalabia",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Mahalabia",
+   "nameAr": "مهلبية",
+   "aliases": [
+    "muhallabia",
+    "mehalabeya"
+   ],
+   "per100": {
+    "kcal": 130.0,
+    "protein": 3.5,
+    "carbs": 21.0,
+    "fat": 3.5
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 150.0
+    }
+   ]
+  },
+  {
+   "id": "qatayef",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Qatayef",
+   "nameAr": "قطايف",
+   "aliases": [
+    "atayef",
+    "katayef"
+   ],
+   "per100": {
+    "kcal": 300.0,
+    "protein": 5.0,
+    "carbs": 45.0,
+    "fat": 11.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 60.0
+    }
+   ]
+  },
+  {
+   "id": "zalabya-lokmet-el-adi",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Zalabya (lokmet el adi)",
+   "nameAr": "زلابية",
+   "aliases": [
+    "zalabia",
+    "lokma",
+    "luqmat al qadi",
+    "لقمة القاضي"
+   ],
+   "per100": {
+    "kcal": 360.0,
+    "protein": 4.0,
+    "carbs": 50.0,
+    "fat": 16.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 12.0
+    }
+   ]
+  },
+  {
+   "id": "ghorayeba",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Ghorayeba",
+   "nameAr": "غريبة",
+   "aliases": [
+    "ghorayba",
+    "ghraybeh"
+   ],
+   "per100": {
+    "kcal": 480.0,
+    "protein": 6.0,
+    "carbs": 58.0,
+    "fat": 25.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 25.0
+    }
+   ]
+  },
+  {
+   "id": "kahk",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Kahk",
+   "nameAr": "كحك",
+   "aliases": [
+    "kahk",
+    "ka'ak"
+   ],
+   "per100": {
+    "kcal": 470.0,
+    "protein": 6.0,
+    "carbs": 60.0,
+    "fat": 23.0
+   },
+   "servings": [
+    {
+     "label": "1 piece",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate",
+   "category": "sweet",
+   "source": "estimate",
+   "nameEn": "Milk chocolate",
+   "nameAr": "شوكولاتة باللبن",
+   "aliases": [
+    "chocolate",
+    "shokolata"
+   ],
+   "per100": {
+    "kcal": 535.0,
+    "protein": 7.6,
+    "carbs": 59.0,
+    "fat": 30.0
+   },
+   "servings": [
+    {
+     "label": "1 bar",
+     "grams": 40.0
+    }
+   ]
+  },
+  {
+   "id": "sugarcane-juice",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Sugarcane juice",
+   "nameAr": "عصير قصب",
+   "aliases": [
+    "asab",
+    "qasab",
+    "sugar cane"
+   ],
+   "per100": {
+    "kcal": 73.0,
+    "protein": 0.0,
+    "carbs": 18.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 300.0
+    }
+   ]
+  },
+  {
+   "id": "tea-with-sugar-2-tsp",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Tea with sugar (2 tsp)",
+   "nameAr": "شاي بالسكر",
+   "aliases": [
+    "shay",
+    "tea"
+   ],
+   "per100": {
+    "kcal": 16.0,
+    "protein": 0.0,
+    "carbs": 4.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 200.0
+    }
+   ]
+  },
+  {
+   "id": "tea-with-milk-and-sugar",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Tea with milk and sugar",
+   "nameAr": "شاي بلبن",
+   "aliases": [
+    "shay bel laban",
+    "milk tea"
+   ],
+   "per100": {
+    "kcal": 35.0,
+    "protein": 1.0,
+    "carbs": 6.0,
+    "fat": 0.8
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "turkish-coffee-mazboot",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Turkish coffee (mazboot)",
+   "nameAr": "قهوة تركي مظبوط",
+   "aliases": [
+    "ahwa",
+    "coffee",
+    "qahwa"
+   ],
+   "per100": {
+    "kcal": 40.0,
+    "protein": 0.2,
+    "carbs": 10.0,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 60.0
+    }
+   ]
+  },
+  {
+   "id": "sahlab",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Sahlab",
+   "nameAr": "سحلب",
+   "aliases": [
+    "sahlab",
+    "salep"
+   ],
+   "per100": {
+    "kcal": 100.0,
+    "protein": 3.0,
+    "carbs": 16.0,
+    "fat": 3.0
+   },
+   "servings": [
+    {
+     "label": "1 cup",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "karkade-hibiscus-sweetened",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Karkade (hibiscus, sweetened)",
+   "nameAr": "كركديه",
+   "aliases": [
+    "karkadeh",
+    "hibiscus"
+   ],
+   "per100": {
+    "kcal": 40.0,
+    "protein": 0.0,
+    "carbs": 10.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "sobia",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Sobia",
+   "nameAr": "سوبيا",
+   "aliases": [
+    "sobya",
+    "sobia"
+   ],
+   "per100": {
+    "kcal": 90.0,
+    "protein": 1.0,
+    "carbs": 17.0,
+    "fat": 2.0
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "tamr-hindi",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Tamr hindi",
+   "nameAr": "تمر هندي",
+   "aliases": [
+    "tamarind",
+    "tamr hendi"
+   ],
+   "per100": {
+    "kcal": 55.0,
+    "protein": 0.0,
+    "carbs": 14.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "fresh-orange-juice",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Fresh orange juice",
+   "nameAr": "عصير برتقال",
+   "aliases": [
+    "orange juice",
+    "aseer bortoan"
+   ],
+   "per100": {
+    "kcal": 45.0,
+    "protein": 0.7,
+    "carbs": 10.0,
+    "fat": 0.2
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "mango-juice",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Mango juice",
+   "nameAr": "عصير مانجو",
+   "aliases": [
+    "mango juice",
+    "aseer manga"
+   ],
+   "per100": {
+    "kcal": 60.0,
+    "protein": 0.3,
+    "carbs": 15.0,
+    "fat": 0.1
+   },
+   "servings": [
+    {
+     "label": "1 glass",
+     "grams": 250.0
+    }
+   ]
+  },
+  {
+   "id": "cola-regular",
+   "category": "drink",
+   "source": "estimate",
+   "nameEn": "Cola (regular)",
+   "nameAr": "كولا",
+   "aliases": [
+    "cola",
+    "pepsi",
+    "coke",
+    "soda"
+   ],
+   "per100": {
+    "kcal": 42.0,
+    "protein": 0.0,
+    "carbs": 10.6,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 can",
+     "grams": 330.0
+    }
+   ]
+  },
+  {
+   "id": "sugar",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Sugar",
+   "nameAr": "سكر",
+   "aliases": [
+    "sokkar",
+    "sugar"
+   ],
+   "per100": {
+    "kcal": 400.0,
+    "protein": 0.0,
+    "carbs": 100.0,
+    "fat": 0.0
+   },
+   "servings": [
+    {
+     "label": "1 tsp",
+     "grams": 4.0
+    },
+    {
+     "label": "1 tbsp",
+     "grams": 12.0
+    }
+   ]
+  },
+  {
+   "id": "ghee-samna",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Ghee (samna)",
+   "nameAr": "سمنة",
+   "aliases": [
+    "samna",
+    "ghee"
+   ],
+   "per100": {
+    "kcal": 900.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 100.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 13.0
+    }
+   ]
+  },
+  {
+   "id": "vegetable-oil",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Vegetable oil",
+   "nameAr": "زيت",
+   "aliases": [
+    "zeit",
+    "oil",
+    "corn oil",
+    "sunflower oil"
+   ],
+   "per100": {
+    "kcal": 884.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 100.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 14.0
+    }
+   ]
+  },
+  {
+   "id": "olive-oil",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Olive oil",
+   "nameAr": "زيت زيتون",
+   "aliases": [
+    "zeit zeitoun",
+    "olive oil"
+   ],
+   "per100": {
+    "kcal": 884.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 100.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 14.0
+    }
+   ]
+  },
+  {
+   "id": "butter",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Butter",
+   "nameAr": "زبدة",
+   "aliases": [
+    "zebda",
+    "butter"
+   ],
+   "per100": {
+    "kcal": 717.0,
+    "protein": 0.9,
+    "carbs": 0.1,
+    "fat": 81.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 14.0
+    }
+   ]
+  },
+  {
+   "id": "peanut-butter",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Peanut butter",
+   "nameAr": "زبدة فول سوداني",
+   "aliases": [
+    "peanut butter"
+   ],
+   "per100": {
+    "kcal": 588.0,
+    "protein": 25.0,
+    "carbs": 20.0,
+    "fat": 50.0
+   },
+   "servings": [
+    {
+     "label": "1 tbsp",
+     "grams": 16.0
+    }
+   ]
+  },
+  {
+   "id": "whey-protein-generic",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Whey protein (generic)",
+   "nameAr": "واي بروتين",
+   "aliases": [
+    "whey",
+    "protein powder"
+   ],
+   "per100": {
+    "kcal": 400.0,
+    "protein": 78.0,
+    "carbs": 8.0,
+    "fat": 6.0
+   },
+   "servings": [
+    {
+     "label": "1 scoop",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "roasted-peanuts",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Roasted peanuts",
+   "nameAr": "فول سوداني",
+   "aliases": [
+    "sudani",
+    "peanuts"
+   ],
+   "per100": {
+    "kcal": 585.0,
+    "protein": 24.0,
+    "carbs": 21.0,
+    "fat": 50.0
+   },
+   "servings": [
+    {
+     "label": "1 handful",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "almonds",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Almonds",
+   "nameAr": "لوز",
+   "aliases": [
+    "loz",
+    "almonds"
+   ],
+   "per100": {
+    "kcal": 579.0,
+    "protein": 21.0,
+    "carbs": 22.0,
+    "fat": 50.0
+   },
+   "servings": [
+    {
+     "label": "1 handful",
+     "grams": 30.0
+    }
+   ]
+  },
+  {
+   "id": "sunflower-seeds-shelled",
+   "category": "basic",
+   "source": "estimate",
+   "nameEn": "Sunflower seeds (shelled)",
+   "nameAr": "لب سوري",
+   "aliases": [
+    "lib",
+    "seeds"
+   ],
+   "per100": {
+    "kcal": 580.0,
+    "protein": 21.0,
+    "carbs": 20.0,
+    "fat": 51.0
+   },
+   "servings": [
+    {
+     "label": "1 handful",
+     "grams": 30.0
+    }
+   ]
+  }
+ ]
+}
