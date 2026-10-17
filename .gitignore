@@ -9,3 +9,4 @@ server/.venv/
 *.backup.json
 cut-backup-*.json
 __pycache__/
+smoke-shots/
