@@ -19,6 +19,7 @@ import { BodyScreen } from './screens/Body';
 import { Progress } from './screens/Progress';
 import { BackupScreen } from './screens/Backup';
 import { useAutoSync } from './lib/sync';
+import { RestTimerBar } from './components/RestTimer';
 
 function Screen({ path }: { path: string }) {
   switch (path) {
@@ -60,6 +61,7 @@ function Shell() {
       <Header />
       <UpdatePrompt />
       <main class="screen"><Screen path={route.path} /></main>
+      <RestTimerBar />
       <TabBar path={route.path} />
       <ToastHost />
     </>

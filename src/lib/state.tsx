@@ -1,4 +1,4 @@
-// App-wide state shared by every screen: settings, sessions, current week and targets.
+// App-wide state shared by every screen: settings, sessions, swaps, current week and targets.
 //
 // Preact "context" ≈ a value every component below the Provider can read without
 // passing it down by hand. useLiveQuery re-runs the query whenever the table changes,
@@ -14,9 +14,10 @@ import { program } from '../program';
 
 export interface AppState {
   settings: Settings;
-  sessions: Session[];     // not deleted, oldest first
+  sessions: Session[];               // not deleted, oldest first
+  swaps: Map<string, string | null>; // base exercise → substitute
   next: NextWorkout;
-  week: number;            // current program week
+  week: number;                      // current program week
   weekInfo: ProgramWeek;
   targets: Targets;
 }
@@ -27,12 +28,14 @@ const Ctx = createContext<AppState | null>(null);
 export function AppStateProvider(props: { children: ComponentChildren; setup: ComponentChildren; loading: ComponentChildren }) {
   const settings = useLiveQuery(() => db.settings.get('me').then((s) => s ?? null), []);
   const sessions = useLiveQuery(() => db.sessions.orderBy('date').filter((s) => !s.deleted).toArray(), []);
-  if (settings === undefined || sessions === undefined) return <>{props.loading}</>;
-  if (settings === null) return <>{props.setup}</>;
+  const swapRows = useLiveQuery(() => db.swaps.toArray(), []);
+  if (settings === undefined || sessions === undefined || swapRows === undefined) return <>{props.loading}</>;
+  if (settings === null || settings.deleted) return <>{props.setup}</>;
   const next = nextWorkout(program, sessions);
   const state: AppState = {
     settings,
     sessions,
+    swaps: new Map(swapRows.filter((r) => !r.deleted).map((r) => [r.id, r.substitute])),
     next,
     week: next.week,
     weekInfo: getWeek(program, next.week),

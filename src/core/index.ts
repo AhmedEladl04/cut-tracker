@@ -7,3 +7,5 @@ export * from './rules';
 export * from './cardio';
 export * from './search';
 export * from './stats';
+export * from './workout';
+export * from './format';

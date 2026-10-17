@@ -8,6 +8,7 @@ import {
   parseRpeUpper, pctChange, performanceDroppedTwice, programWeekOn, progressionHint, proteinStatus,
   recipeMacros, roundTo, searchFoods, searchKeysFor, targetLoad, targetsForWeek, tokens, topSetMissed,
   weeklyAverages, weeklyLossPct, weeklySetVolume, daysSince, backupOverdue, variantTag, substitutionsOf,
+  performedName, buildHistory, lastOf, initialSets, parseNum, fmtClock, fmtInt, fmt,
   type DoneSession,
 } from './index';
 import type { CardioLog, DayName, Program, ProgramExercise, SetLog } from './types';
@@ -280,5 +281,57 @@ describe('stats', () => {
     expect(backupOverdue(8)).toBe(true);
     expect(backupOverdue(7)).toBe(false);
     expect(backupOverdue(null)).toBe(true);
+  });
+});
+
+describe('workout prefill & history', () => {
+  const settings = { oneRm: { 'Back Squat': 140, 'Barbell Bench Press': 100, 'Overhead Press': 60, Deadlift: 180 }, oneRmAfter10: {} };
+  const mk = (id: string, finishedAt: number, performed: string, sets: SetLog[], status: 'done' | 'in_progress' = 'done') => ({
+    id, updatedAt: 0, week: 1, day: 'Upper A' as DayName, date: '2026-01-0' + finishedAt, startedAt: finishedAt, finishedAt, durationMin: 60, status,
+    exercises: [{ key: performed, performed, sets, lastRpe: 8 }],
+  });
+  it('performed name keeps the variant tag when swapped', () => {
+    expect(performedName(ex(15, 'Upper A', 'Barbell Bench Press [Back-off]'), 'DB bench press')).toBe('DB bench press [Back-off]');
+    expect(performedName(ex(1, 'Upper A', 'Wide-Grip Lat Pulldown'), null)).toBe('Wide-Grip Lat Pulldown');
+  });
+  it('history is per performed name, newest last, done sessions only', () => {
+    const h = buildHistory([mk('b', 2, 'Row', [set(60, 9)]), mk('a', 1, 'Row', [set(55, 10)]), mk('c', 3, 'Row', [set(70, 8)], 'in_progress')]);
+    expect(h.get('Row')!.map((x) => x.sets[0].load)).toEqual([55, 60]);
+    expect(lastOf(h, 'Row')!.sets[0].load).toBe(60);
+    expect(lastOf(h, 'Nope')).toBeNull();
+  });
+  it('primary prefill = target load and min reps', () => {
+    const sets = initialSets(ex(1, 'Upper A', 'Barbell Bench Press'), settings, null);
+    expect(sets).toHaveLength(3);
+    expect(sets[0]).toEqual({ load: 75, reps: 5, done: false });
+  });
+  it('accessory prefill = last time per set', () => {
+    const pulldown = ex(1, 'Upper A', 'Wide-Grip Lat Pulldown');
+    const last = { date: 'x', week: 1, sets: [set(60, 10), set(60, 9)], lastRpe: 8 };
+    expect(initialSets(pulldown, settings, last)).toEqual([
+      { load: 60, reps: 10, done: false }, { load: 60, reps: 9, done: false }, { load: 60, reps: 9, done: false },
+    ]);
+    expect(initialSets(pulldown, settings, null)[0]).toEqual({ load: null, reps: 8, done: false });
+  });
+  it('AMRAP prefill leaves reps empty', () => {
+    expect(initialSets(ex(10, 'Lower A', 'Back Squat [AMRAP test]'), settings, null)[0]).toEqual({ load: 125, reps: null, done: false });
+  });
+});
+
+describe('format', () => {
+  it('parses phone-keyboard numbers', () => {
+    expect(parseNum('82.5')).toBe(82.5);
+    expect(parseNum('82,5')).toBe(82.5);
+    expect(parseNum('٨٢٫٥')).toBe(82.5);
+    expect(parseNum('')).toBeNull();
+    expect(parseNum('abc')).toBeNull();
+    expect(parseNum('10.')).toBe(10);
+  });
+  it('formats', () => {
+    expect(fmtClock(125)).toBe('2:05');
+    expect(fmtClock(-3)).toBe('0:00');
+    expect(fmtInt(7400)).toBe('7,400');
+    expect(fmt(82.5)).toBe('82.5');
+    expect(fmt(null)).toBe('–');
   });
 });
